@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAC-LAB", "IAC-LAB\IAC-LAB.csproj", "{A20EEBBA-8B7E-4449-905F-8E5FCE0F030A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAC-LAB.Domain", "IAC-LAB.Domain\IAC-LAB.Domain.csproj", "{6479FFA9-1CDD-4FCB-A0BA-C68FED171398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAC-LAB.Services", "IAC-LAB.Services\IAC-LAB.Services.csproj", "{8CAE5DCB-C790-4A58-A622-4B95B382C916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A20EEBBA-8B7E-4449-905F-8E5FCE0F030A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20EEBBA-8B7E-4449-905F-8E5FCE0F030A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20EEBBA-8B7E-4449-905F-8E5FCE0F030A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20EEBBA-8B7E-4449-905F-8E5FCE0F030A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6479FFA9-1CDD-4FCB-A0BA-C68FED171398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6479FFA9-1CDD-4FCB-A0BA-C68FED171398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6479FFA9-1CDD-4FCB-A0BA-C68FED171398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6479FFA9-1CDD-4FCB-A0BA-C68FED171398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAE5DCB-C790-4A58-A622-4B95B382C916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAE5DCB-C790-4A58-A622-4B95B382C916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAE5DCB-C790-4A58-A622-4B95B382C916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAE5DCB-C790-4A58-A622-4B95B382C916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
