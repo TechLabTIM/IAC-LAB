@@ -21,9 +21,8 @@ jobs:
 
     # Install the .NET Core workload
     - name: Install .NET Core
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 8.0.x
+      run: sudo /home/timlab/actions-runner/_work/_actions/actions/setup-dotnet/v4/externals/install-dotnet.sh --skip-non-versioned-files --channel 8.0
+
 
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Restore dependencies
